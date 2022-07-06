@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    background-image: url(images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.donate-btn{
+    background-color:rgb(235, 13, 13);
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    margin: 5px;
+}
