@@ -35,6 +35,7 @@ body{
     padding: 10px 40px;
     font-size: 16px;
     margin: 5px;
+    margin-bottom: 150px;
 }
 .donate-part{
     display: flex;
@@ -81,3 +82,27 @@ body{
     border: 1px solid #ccc;
     margin-bottom: 30px;
 } 
+.services{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+#medicine img{
+    width:15%;
+   
+}
+#medicine{
+    background-color: rgb(238, 201, 213);
+    padding: 50px;
+    margin:25px;
+}
+#food{
+    background-color: rgb(188, 231, 217);
+    padding: 50px;
+    margin: 25px;
+}
+#shelter{
+    background-color: rgb(243, 199, 199);
+    padding: 50px;
+    margin: 25px;
+}
