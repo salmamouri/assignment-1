@@ -106,3 +106,26 @@ body{
     padding: 50px;
     margin: 25px;
 }
+.contact-part{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px;
+    
+}
+
+.contact-form{
+    background-color: blue;
+    width: 500px;
+}
+.contact-img{
+    background-image: url(images/donation2.jpg);
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+
+} 
+
