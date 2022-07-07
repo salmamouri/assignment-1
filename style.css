@@ -167,7 +167,7 @@ body{
     margin-left: 325px;
     padding: 50px;
     width: 50%;
-   background-color: rgb(203, 209, 209);
+   background-color:lightgray;
 }
 .email-input .email{
    width:300px ;
