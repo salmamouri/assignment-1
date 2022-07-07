@@ -116,8 +116,14 @@ body{
 }
 
 .contact-form{
-    background-color: blue;
+    
     width: 500px;
+}
+.contact-form h1{
+    text-align: center;
+    font-size: 35px;
+    color:rgb(235, 13, 13) ;
+    margin-top: 150px;
 }
 .contact-img{
     background-image: url(images/donation2.jpg);
@@ -128,4 +134,59 @@ body{
     height: 400px;
 
 } 
+.form{
+    margin-top: 50px;
+}
+.form input{
+    width: 500px;
+    height: 30px;
+}
 
+.send-btn{
+    background-color:rgb(235, 13, 13);
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    margin-left: 175px;
+    
+}
+.update-part{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-bottom: 100px;
+}
+.update-part h1{
+    color:rgb(235, 13, 13)  ;
+}
+
+.email-input{
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+    width: 50%;
+   background-color: rgb(203, 209, 209);
+}
+.email-input .email{
+   width:300px ;
+   height:30px;
+   margin-left: 10px;
+
+}
+.email-input .subscribe{
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    background-color:rgb(235, 13, 13) ;
+    border: none;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
