@@ -29,7 +29,7 @@ body{
     font-size: 50px;
 }
 .donate-btn{
-    background-color:rgb(235, 13, 13);
+    background-color:rgb(245, 69, 69);
     color: white;
     border: none;
     padding: 10px 40px;
@@ -63,8 +63,8 @@ body{
     margin: 30px;
 }
 #selected{
-    color:rgb(235, 13, 13);
-    border: 2px solid rgb(235, 13, 13);
+    color:rgb(245, 69, 69);
+    border: 2px solid rgb(245, 69, 69);
 }
 .other-amount{
     display: flex;
@@ -111,7 +111,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 50px;
+    margin: 0 70px;
     
 }
 
@@ -122,7 +122,7 @@ body{
 .contact-form h1{
     text-align: center;
     font-size: 35px;
-    color:rgb(235, 13, 13) ;
+    color:rgb(245, 69, 69);
     margin-top: 150px;
 }
 .contact-img{
@@ -143,7 +143,7 @@ body{
 }
 
 .send-btn{
-    background-color:rgb(235, 13, 13);
+    background-color:rgb(245, 69, 69);
     color: white;
     border: none;
     padding: 10px 40px;
@@ -153,20 +153,18 @@ body{
     margin-left: 175px;
     
 }
-.update-part{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-   margin-bottom: 100px;
-}
-.update-part h1{
-    color:rgb(235, 13, 13)  ;
-}
 
+.update-part h1{
+    color:rgb(245, 69, 69)  ;
+    font-size: 30px;
+} 
+.update-part{
+    text-align: center;
+}
 .email-input{
     text-align: center;
     margin-top: 50px;
+    margin-left: 325px;
     padding: 50px;
     width: 50%;
    background-color: rgb(203, 209, 209);
@@ -181,12 +179,18 @@ body{
     width: 100px;
     height: 30px;
     margin-right: 20px;
-    background-color:rgb(235, 13, 13) ;
+    background-color:rgb(245, 69, 69) ;
     border: none;
 }
 footer{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 40px;
+    margin-top: 150px;
+}
+#color{
+    color: rgb(245, 69, 69);
+    font-size: 25px;
+    font-weight: bolder;
 }
